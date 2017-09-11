@@ -13,15 +13,15 @@ public class task5 {
 
         boolean z=a>b&a>c;
         System.out.println("является ли A наибольшим числом (true / false)" + z);
-        boolean x = b>a & b>c;
+        boolean x = b>a && b>c;
         System.out.println("является ли B наибольшим числом (true / false)" + x);
-        boolean v= c>a & c>b;
+        boolean v= c>a && c>b;
         System.out.println("является ли C наибольшим числом (true / false)" + v);
-        boolean n= a<b & a<c;
+        boolean n= a<b && a<c;
         System.out.println("является ли A наименьшим числом (true / false)" + n);
-        boolean m = b<a & b<c;
+        boolean m = b<a && b<c;
         System.out.println("является ли B наименьшим числом (true / false)" + m);
-        boolean s= c<a & c<b;
+        boolean s= c<a && c<b;
         System.out.println("является ли C наименьшим числом (true / false)" + s);
 
         boolean d = (a>b & a<c) || (a<b & a>c);

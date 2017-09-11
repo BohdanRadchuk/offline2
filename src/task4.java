@@ -14,11 +14,5 @@ public class task4 {
         System.out.println("деление без остатка ? " + d ) ;
         boolean g = a>b;
         System.out.println("A>B = "+ g);
-
-
-
-
     }
-
-
 }

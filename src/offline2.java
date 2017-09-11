@@ -26,12 +26,6 @@ public class offline2 {
         float p = (e + f + g)/2;
         float s = (float)Math.sqrt(p*(p-e)*(p-f)*(p-g));
         System.out.println("плоадь треугольника = " + s );
-
-
-
-
-
-
     }
 
 }
