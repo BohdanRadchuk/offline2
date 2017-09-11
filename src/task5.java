@@ -42,7 +42,7 @@ public class task5 {
         System.out.println("равняется ли C хотя бы одному из других чисел " + k);
 
         boolean l = (a>b) || (a>c);
-        System.out.println("A больше хотя бы одного из других чисел " + l);
+        System.out.println("A больше хотя бы одного из других чисел " + ((a>b) || (a>c)));
         boolean q = (b>a) || (b>c);
         System.out.println("B больше хотя бы одного из других чисел " + q);
         boolean w = (c>a) || (c>b);
